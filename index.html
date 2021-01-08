@@ -1,0 +1,341 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Kense</title><meta name="author" content="Kense"><meta name="copyright" content="Kense"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><meta name="description" content="君子性非异也，善假于物也">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Kense">
+<meta property="og:url" content="http://kense.com/index.html">
+<meta property="og:site_name" content="Kense">
+<meta property="og:description" content="君子性非异也，善假于物也">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://kense.com/img/avatar.jpeg">
+<meta property="article:author" content="Kense">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://kense.com/img/avatar.jpeg"><link rel="shortcut icon" href="/img/avatar.jpeg"><link rel="canonical" href="http://kense.com/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="preconnect" href="//zz.bdstatic.com"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#121212","position":"bottom-left"},
+  source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+    },
+    fancybox: {
+      js: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isanchor: false
+};
+
+var saveToLocal = {
+  set: function setWithExpiry(key, value, ttl) {
+    const now = new Date()
+    const expiryDay = ttl * 86400000
+    const item = {
+      value: value,
+      expiry: now.getTime() + expiryDay,
+    }
+    localStorage.setItem(key, JSON.stringify(item))
+  },
+
+  get: function getWithExpiry(key) {
+    const itemStr = localStorage.getItem(key)
+
+    if (!itemStr) {
+      return undefined
+    }
+    const item = JSON.parse(itemStr)
+    const now = new Date()
+
+    if (now.getTime() > item.expiry) {
+      localStorage.removeItem(key)
+      return undefined
+    }
+    return item.value
+  }
+}
+
+// https://stackoverflow.com/questions/16839698/jquery-getscript-alternative-in-native-javascript
+const getScript = url => new Promise((resolve, reject) => {
+  const script = document.createElement('script')
+  script.src = url
+  script.async = true
+  script.onerror = reject
+  script.onload = script.onreadystatechange = function() {
+    const loadState = this.readyState
+    if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+    script.onload = script.onreadystatechange = null
+    resolve()
+  }
+  document.head.appendChild(script)
+})</script><script id="config_change">var GLOBAL_CONFIG_SITE = { 
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2021-01-08 11:11:25'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(function () {  window.activateDarkMode = function () {
+    document.documentElement.setAttribute('data-theme', 'dark')
+    if (document.querySelector('meta[name="theme-color"]') !== null) {
+      document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+    }
+  }
+  window.activateLightMode = function () {
+    document.documentElement.setAttribute('data-theme', 'light')
+   if (document.querySelector('meta[name="theme-color"]') !== null) {
+      document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+    }
+  }
+  const autoChangeMode = 'false'
+  const t = saveToLocal.get('theme')
+  if (autoChangeMode === '1') {
+    const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+    const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+    const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+    const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+    if (t === undefined) {
+      if (isLightMode) activateLightMode()
+      else if (isDarkMode) activateDarkMode()
+      else if (isNotSpecified || hasNoSupport) {
+        const now = new Date()
+        const hour = now.getHours()
+        const isNight = hour <= 6 || hour >= 18
+        isNight ? activateDarkMode() : activateLightMode()
+      }
+      window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+        if (saveToLocal.get('theme') === undefined) {
+          e.matches ? activateDarkMode() : activateLightMode()
+        }
+      })
+    } else if (t === 'light') activateLightMode()
+    else activateDarkMode()
+  } else if (autoChangeMode === '2') {
+    const now = new Date()
+    const hour = now.getHours()
+    const isNight = hour <= 6 || hour >= 18
+    if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+    else if (t === 'light') activateLightMode()
+    else activateDarkMode()
+  } else {
+    if (t === 'dark') activateDarkMode()
+    else if (t === 'light') activateLightMode()
+  }const asideStatus = saveToLocal.get('aside-status')
+if (asideStatus !== undefined) {
+   if (asideStatus === 'hide') {
+     document.documentElement.classList.add('hide-aside')
+   } else {
+     document.documentElement.classList.remove('hide-aside')
+   }
+}})()</script><meta name="generator" content="Hexo 5.3.0"><link rel="alternate" href="/atom.xml" title="Kense" type="application/atom+xml">
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="author-avatar"><img class="avatar-img" data-lazy-src="/img/avatar.jpeg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">5</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">标签</div><div class="length-num">8</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">分类</div><div class="length-num">5</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url(/img/index.jpg)"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Kense</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">Kense</h1><div id="site-subtitle"><span id="subtitle"></span></div><div id="site_social_icons"><a class="social-icon" href="https://github.com/kense-lab" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:limeng1300881350@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a><a class="social-icon" href="/atom.xml" target="_blank" title=""><i class="fas fa-rss"></i></a><a class="social-icon" href="https://segmentfault.com/u/kense_lab" target="_blank" title=""><i class="fab fa-cuttlefish flat-btn"></i></a></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2021/01/07/Hexo-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" title="Hexo 搭建博客">     <img class="post_bg" data-lazy-src="/img/cover2.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Hexo 搭建博客"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/01/07/Hexo-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" title="Hexo 搭建博客">Hexo 搭建博客</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-01-07T06:11:27.000Z" title="发表于 2021-01-07 14:11:27">2021-01-07</time><span class="article-meta__separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2021-01-08T03:11:10.486Z" title="更新于 2021-01-08 11:11:10">2021-01-08</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/%E5%BB%BA%E7%AB%99/">建站</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag article-meta__icon"></i><a class="article-meta__tags" href="/tags/%E5%BB%BA%E7%AB%99/">建站</a></span></div><div class="content">安装 Hexo安装 Hexo 命令行工具1npm i -g hexo-cli
+创建博客项目1hexo init blog
+进入博客项目目录1cd blog
+安装依赖1npm i
+启动服务器1hexo server
+
+安装 Butterfly 主题安装主题1git clone -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly
+应用主题修改站点配置文件 _config.yaml，把主题改为 butterfly
+1theme: butterfly
+安裝 Pug 插件1npm i hexo-renderer-pug --save
+安装字数统计插件1npm i hexo-wordcount --save
+安装搜索插件1npm i hexo-generator-search --save
+安装 RSS 插件1npm i hexo-generator-feed --save
+_config.xml 添加
+1234feed:  # Generate both atom and rss2 fe ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2021/01/02/2020%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/" title="2020 年终总结">     <img class="post_bg" data-lazy-src="/img/cover1.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="2020 年终总结"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/01/02/2020%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/" title="2020 年终总结">2020 年终总结</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-01-02T12:00:00.000Z" title="发表于 2021-01-02 20:00:00">2021-01-02</time><span class="article-meta__separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2021-01-08T02:24:25.698Z" title="更新于 2021-01-08 10:24:25">2021-01-08</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/">年终总结</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag article-meta__icon"></i><a class="article-meta__tags" href="/tags/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/">年终总结</a></span></div><div class="content">2020 总结Work2020 年是我从 2018 年毕业参加工作以来能力提升最大的一年。
+这一年我在公司参与了数据平台的开发，并作为核心开发人员。
+开始接触大数据生态，主要研究了 Kudu、Impala、NiFi、Flink。
+coding 能力提升了很多。
+开发环境从 Manjaro 切换到了 macOS。
+Blog开始尝试写博客了，刚开始写的东西不太有深度，要慢慢写一些有深度的东西。
+LeetCode开始刷 LeetCode 了，感觉刷一刷 LeetCode 还是很有必要的。目前我的收获是：有了复杂度分析的意识，coding 能力提高了。
+源码研究主要研究了一些 NiFi 源码，因工作需要还给他做了个汉化（虽然汉化的程度也不是很高😝）。话说 NiFi 用 NAR 包做类资源隔离和 Processor 扩展的设计真棒啊👍。
+Book技术类的《算法》，一边刷题一边看。最近买了本《数据密集型应用系统设计》，刚要开始看。小说类《追风筝的人》，每天在地铁上看一会，中午吃完饭有时会看一会，目前还没有看完，慢慢看，看书的时候心情很好。
+我看书很慢，比较细🤣
+2021 flag
+写 10  ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2020/11/29/JNI%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/" title="JNI 使用教程">     <img class="post_bg" data-lazy-src="/img/cover4.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="JNI 使用教程"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/11/29/JNI%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/" title="JNI 使用教程">JNI 使用教程</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2020-11-29T12:00:00.000Z" title="发表于 2020-11-29 20:00:00">2020-11-29</time><span class="article-meta__separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2021-01-08T02:24:25.653Z" title="更新于 2021-01-08 10:24:25">2021-01-08</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/Java/">Java</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag article-meta__icon"></i><a class="article-meta__tags" href="/tags/Java/">Java</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/JNI/">JNI</a></span></div><div class="content">JNI 使用教程
+编写 Java 测试类
+ 123456789101112131415161718public class TestJNI &#123;    // 定义 native 方法    private native void say();    static &#123;        // 加载动态库        // 从当前路径或 java.library.path 查找, 去掉文件扩展名, macos 需要去掉 lib 前缀        System.loadLibrary(&quot;TestJNI&quot;);        // 或者使用文件绝对路径加载        // System.load( &quot;/path/to/TestJNI.so&quot;);    &#125;    public static void main(String[] args) &#123;        new TestJNI().say();    &#125;&#125;
+利用 Java 类生成 C++ 头文件
+ 1javah TestJNI
+ 修改 Test ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2020/11/28/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1Rancher-Server%E7%9A%84Docker%E9%95%9C%E5%83%8F%E4%B8%A2%E5%A4%B1%E5%92%8C%E8%AF%81%E4%B9%A6%E8%BF%87%E6%9C%9F%E9%97%AE%E9%A2%98/" title="记录一次 Rancher Server 的 Docker 镜像丢失和证书过期问题">     <img class="post_bg" data-lazy-src="/img/cover3.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="记录一次 Rancher Server 的 Docker 镜像丢失和证书过期问题"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/11/28/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1Rancher-Server%E7%9A%84Docker%E9%95%9C%E5%83%8F%E4%B8%A2%E5%A4%B1%E5%92%8C%E8%AF%81%E4%B9%A6%E8%BF%87%E6%9C%9F%E9%97%AE%E9%A2%98/" title="记录一次 Rancher Server 的 Docker 镜像丢失和证书过期问题">记录一次 Rancher Server 的 Docker 镜像丢失和证书过期问题</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2020-11-28T12:00:00.000Z" title="发表于 2020-11-28 20:00:00">2020-11-28</time><span class="article-meta__separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2021-01-08T02:24:25.653Z" title="更新于 2021-01-08 10:24:25">2021-01-08</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/%E5%AE%B9%E5%99%A8%E5%8C%96/">容器化</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag article-meta__icon"></i><a class="article-meta__tags" href="/tags/Rancher/">Rancher</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/Docker/">Docker</a></span></div><div class="content">背景Docker 版本:18.06.3-ce
+Rancher 版本:2.3.2
+现象:
+
+Rancher UI 无法访问, 下游集群一切正常
+docker ps 查看 Rancher Server 容器丢失
+docker images 查看 Rancher Server 镜像丢失
+
+寻找 Rancher Server 容器
+重新拉取 Rancher Server 镜像 1docker pull rancher/rancher:v2.3.2
+执行 docker ps -a | grep &#39;rancher\/rancher:v2.3.2&#39; 发现丢失的 Rancher Server 容器回来了
+
+
+得出结论:  Rancher Server 容器丢失的原因是: 依赖的镜像丢失了, 容器也就无法显示了, 并没有真正丢失  Rancher Server 镜像丢失原因不明, 可能是非正常关机或文件系统损坏等原因导致的
+
+发现新问题重新启动 Rancher Server 容器, 但启动失败容器日志中发现 x509: certificate has expired or is not  ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2020/11/20/NiFi-1.10.0+%E7%89%88%E6%9C%AC%E4%BD%BF%E7%94%A8-Kafka-0.8.x/" title="NiFi 1.10.0+ 版本使用 Kafka 0.8.x">     <img class="post_bg" data-lazy-src="/img/cover5.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="NiFi 1.10.0+ 版本使用 Kafka 0.8.x"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/11/20/NiFi-1.10.0+%E7%89%88%E6%9C%AC%E4%BD%BF%E7%94%A8-Kafka-0.8.x/" title="NiFi 1.10.0+ 版本使用 Kafka 0.8.x">NiFi 1.10.0+ 版本使用 Kafka 0.8.x</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2020-11-20T12:00:00.000Z" title="发表于 2020-11-20 20:00:00">2020-11-20</time><span class="article-meta__separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2021-01-08T02:35:25.590Z" title="更新于 2021-01-08 10:35:25">2021-01-08</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86/">数据处理</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag article-meta__icon"></i><a class="article-meta__tags" href="/tags/NiFi/">NiFi</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/ETL/">ETL</a></span></div><div class="content">背景需要从 Kafka 0.8.x 版本订阅消息, 然后发送消息到 Kafka 1.0.x 版本中, 其中涉及到了 Kafka 版本冲突的问题, NiFi 很好的解决了这个问题
+NiFi 开发人员指南 NiFi Archives (NARs) 章节中有如下说明
+
+When software from many different organizations is all hosted within the same environment, Java ClassLoaders quickly become a concern. If multiple components have a dependency on the same library but each depends on a different version, many problems arise, typically resulting in unexpected behavior or NoClassDefFoundError errors occurring. In order to prevent these ...</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-info-avatar is-center"><img class="avatar-img" data-lazy-src="/img/avatar.jpeg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">Kense</div><div class="author-info__description">君子性非异也，善假于物也</div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">5</div></a></div><div class="card-info-data-item is-center"><a href="/tags/"><div class="headline">标签</div><div class="length-num">8</div></a></div><div class="card-info-data-item is-center"><a href="/categories/"><div class="headline">分类</div><div class="length-num">5</div></a></div></div><a class="button--animated" id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/kense-lab"><i class="fab fa-github"></i><span>关注一下</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/kense-lab" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:limeng1300881350@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a><a class="social-icon" href="/atom.xml" target="_blank" title=""><i class="fas fa-rss"></i></a><a class="social-icon" href="https://segmentfault.com/u/kense_lab" target="_blank" title=""><i class="fab fa-cuttlefish flat-btn"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">Java、容器化、微服务、大数据、Linux 等技术分享</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2021/01/07/Hexo-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" title="Hexo 搭建博客"><img data-lazy-src="/img/cover2.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Hexo 搭建博客"/></a><div class="content"><a class="title" href="/2021/01/07/Hexo-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" title="Hexo 搭建博客">Hexo 搭建博客</a><time datetime="2021-01-07T06:11:27.000Z" title="发表于 2021-01-07 14:11:27">2021-01-07</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/01/02/2020%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/" title="2020 年终总结"><img data-lazy-src="/img/cover1.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="2020 年终总结"/></a><div class="content"><a class="title" href="/2021/01/02/2020%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/" title="2020 年终总结">2020 年终总结</a><time datetime="2021-01-02T12:00:00.000Z" title="发表于 2021-01-02 20:00:00">2021-01-02</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2020/11/29/JNI%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/" title="JNI 使用教程"><img data-lazy-src="/img/cover4.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="JNI 使用教程"/></a><div class="content"><a class="title" href="/2020/11/29/JNI%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/" title="JNI 使用教程">JNI 使用教程</a><time datetime="2020-11-29T12:00:00.000Z" title="发表于 2020-11-29 20:00:00">2020-11-29</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2020/11/28/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1Rancher-Server%E7%9A%84Docker%E9%95%9C%E5%83%8F%E4%B8%A2%E5%A4%B1%E5%92%8C%E8%AF%81%E4%B9%A6%E8%BF%87%E6%9C%9F%E9%97%AE%E9%A2%98/" title="记录一次 Rancher Server 的 Docker 镜像丢失和证书过期问题"><img data-lazy-src="/img/cover3.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="记录一次 Rancher Server 的 Docker 镜像丢失和证书过期问题"/></a><div class="content"><a class="title" href="/2020/11/28/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1Rancher-Server%E7%9A%84Docker%E9%95%9C%E5%83%8F%E4%B8%A2%E5%A4%B1%E5%92%8C%E8%AF%81%E4%B9%A6%E8%BF%87%E6%9C%9F%E9%97%AE%E9%A2%98/" title="记录一次 Rancher Server 的 Docker 镜像丢失和证书过期问题">记录一次 Rancher Server 的 Docker 镜像丢失和证书过期问题</a><time datetime="2020-11-28T12:00:00.000Z" title="发表于 2020-11-28 20:00:00">2020-11-28</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2020/11/20/NiFi-1.10.0+%E7%89%88%E6%9C%AC%E4%BD%BF%E7%94%A8-Kafka-0.8.x/" title="NiFi 1.10.0+ 版本使用 Kafka 0.8.x"><img data-lazy-src="/img/cover5.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="NiFi 1.10.0+ 版本使用 Kafka 0.8.x"/></a><div class="content"><a class="title" href="/2020/11/20/NiFi-1.10.0+%E7%89%88%E6%9C%AC%E4%BD%BF%E7%94%A8-Kafka-0.8.x/" title="NiFi 1.10.0+ 版本使用 Kafka 0.8.x">NiFi 1.10.0+ 版本使用 Kafka 0.8.x</a><time datetime="2020-11-20T12:00:00.000Z" title="发表于 2020-11-20 20:00:00">2020-11-20</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline"><i class="fas fa-folder-open"></i><span>分类</span></div><ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Java/"><span class="card-category-list-name">Java</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%AE%B9%E5%99%A8%E5%8C%96/"><span class="card-category-list-name">容器化</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/"><span class="card-category-list-name">年终总结</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%BB%BA%E7%AB%99/"><span class="card-category-list-name">建站</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86/"><span class="card-category-list-name">数据处理</span><span class="card-category-list-count">1</span></a></li>
+            
+            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/Docker/" style="font-size: 1.1em; color: #999">Docker</a> <a href="/tags/ETL/" style="font-size: 1.1em; color: #999">ETL</a> <a href="/tags/JNI/" style="font-size: 1.1em; color: #999">JNI</a> <a href="/tags/Java/" style="font-size: 1.1em; color: #999">Java</a> <a href="/tags/NiFi/" style="font-size: 1.1em; color: #999">NiFi</a> <a href="/tags/Rancher/" style="font-size: 1.1em; color: #999">Rancher</a> <a href="/tags/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/" style="font-size: 1.1em; color: #999">年终总结</a> <a href="/tags/%E5%BB%BA%E7%AB%99/" style="font-size: 1.1em; color: #999">建站</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>时间轴</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/01/"><span class="card-archive-list-date">一月 2021</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/11/"><span class="card-archive-list-date">十一月 2020</span><span class="card-archive-list-count">3</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">5</div></div><div class="webinfo-item"><div class="item-name">已运行时间 :</div><div class="item-count" id="runtimeshow" data-publishDate="2021-01-08T03:11:25.049Z"></div></div><div class="webinfo-item"><div class="item-name">本站总字数 :</div><div class="item-count">2.3k</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2021-01-08T03:11:25.054Z"></div></div></div></div></div></div></main><footer id="footer" style="background: #49b1f5"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2021 By Kense</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><div class="search-dialog__title" id="local-search-title">搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script>function panguFn () {
+  if (typeof pangu === 'object') pangu.spacingElementById('content-inner')
+  else {
+    getScript('https://cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js')
+      .then(() => {
+        pangu.spacingElementById('content-inner')
+      })
+  }
+}
+
+function panguInit () {
+  if (false){
+    GLOBAL_CONFIG_SITE.isPost && panguFn()
+  } else {
+    panguFn()
+  }
+}
+
+document.addEventListener('DOMContentLoaded', panguInit)</script><script src="/js/search/local-search.js"></script><div class="js-pjax"><script>function subtitleType () {
+  if (true) { 
+    var typed = new Typed("#subtitle", {
+      strings: "君子性非异也，善假于物也。".split(","),
+      startDelay: 300,
+      typeSpeed: 150,
+      loop: true,
+      backSpeed: 50
+    })
+  } else {
+    document.getElementById("subtitle").innerHTML = '君子性非异也，善假于物也。'
+  }
+}
+
+if (true) {
+  if (typeof Typed === 'function') {
+    subtitleType()
+  } else {
+    getScript('https://cdn.jsdelivr.net/npm/typed.js/lib/typed.min.js').then(subtitleType)
+  }
+} else {
+  subtitleType()
+}</script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><canvas class="fireworks" mobile="false"></canvas><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/fireworks.min.js"></script><script defer="defer" id="ribbon" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-ribbon.min.js" size="150" alpha="0.6" zIndex="-1" mobile="false" data-click="false"></script><script defer="defer" id="fluttering_ribbon" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-fluttering-ribbon.min.js"></script><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>let pjaxSelectors = [
+  'title',
+  '#config_change',
+  '#body-wrap',
+  '#rightside-config-hide',
+  '#rightside-config-show',
+  '.js-pjax'
+]
+
+if (false) {
+  pjaxSelectors.unshift('meta[property="og:image"]', 'meta[property="og:title"]', 'meta[property="og:url"]')
+}
+
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof chatBtnFn === 'function' && chatBtnFn()
+  typeof panguInit === 'function' && panguInit()
+
+  if (typeof gtag === 'function') {
+    gtag('config', '', {'page_path': window.location.pathname});
+  }
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // Analytics
+  if (false) {
+    MtaH5.pgv()
+  }
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+
+  typeof preloader === 'object' && preloader.endLoading()
+})
+
+
+document.addEventListener('pjax:send', function () {
+  typeof preloader === 'object' && preloader.initLoading()
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+
+})</script><script>(function(){
+  const bp = document.createElement('script');
+  const curProtocol = window.location.protocol.split(':')[0];
+  if (curProtocol === 'https') {
+    bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+  }
+  else{
+    bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+  }
+  bp.dataset.pjax = ''
+  const s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(bp, s);
+})()</script></div></body></html>
