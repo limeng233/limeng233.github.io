@@ -3,11 +3,11 @@
   <title>Kense</title>
   
   
-  <link href="http://kense.com/atom.xml" rel="self"/>
+  <link href="https://kense.xyz/atom.xml" rel="self"/>
   
-  <link href="http://kense.com/"/>
+  <link href="https://kense.xyz/"/>
   <updated>2021-01-08T03:54:59.946Z</updated>
-  <id>http://kense.com/</id>
+  <id>https://kense.xyz/</id>
   
   <author>
     <name>Kense</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hexo 博客搭建</title>
-    <link href="http://kense.com/2021/01/07/Hexo-%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
-    <id>http://kense.com/2021/01/07/Hexo-%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</id>
+    <link href="https://kense.xyz/2021/01/07/Hexo-%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    <id>https://kense.xyz/2021/01/07/Hexo-%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</id>
     <published>2021-01-07T06:11:27.000Z</published>
     <updated>2021-01-08T03:54:59.946Z</updated>
     
@@ -33,17 +33,17 @@
     
     
     
-    <category term="建站" scheme="http://kense.com/categories/%E5%BB%BA%E7%AB%99/"/>
+    <category term="建站" scheme="https://kense.xyz/categories/%E5%BB%BA%E7%AB%99/"/>
     
     
-    <category term="建站" scheme="http://kense.com/tags/%E5%BB%BA%E7%AB%99/"/>
+    <category term="建站" scheme="https://kense.xyz/tags/%E5%BB%BA%E7%AB%99/"/>
     
   </entry>
   
   <entry>
     <title>2020 年终总结</title>
-    <link href="http://kense.com/2021/01/02/2020%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/"/>
-    <id>http://kense.com/2021/01/02/2020%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</id>
+    <link href="https://kense.xyz/2021/01/02/2020%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/"/>
+    <id>https://kense.xyz/2021/01/02/2020%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</id>
     <published>2021-01-02T12:00:00.000Z</published>
     <updated>2021-01-08T02:24:25.698Z</updated>
     
@@ -57,17 +57,17 @@
     
     
     
-    <category term="年终总结" scheme="http://kense.com/categories/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/"/>
+    <category term="年终总结" scheme="https://kense.xyz/categories/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/"/>
     
     
-    <category term="年终总结" scheme="http://kense.com/tags/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/"/>
+    <category term="年终总结" scheme="https://kense.xyz/tags/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/"/>
     
   </entry>
   
   <entry>
     <title>JNI 使用教程</title>
-    <link href="http://kense.com/2020/11/29/JNI%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/"/>
-    <id>http://kense.com/2020/11/29/JNI%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</id>
+    <link href="https://kense.xyz/2020/11/29/JNI%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/"/>
+    <id>https://kense.xyz/2020/11/29/JNI%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</id>
     <published>2020-11-29T12:00:00.000Z</published>
     <updated>2021-01-08T02:24:25.653Z</updated>
     
@@ -83,19 +83,19 @@
     
     
     
-    <category term="Java" scheme="http://kense.com/categories/Java/"/>
+    <category term="Java" scheme="https://kense.xyz/categories/Java/"/>
     
     
-    <category term="Java" scheme="http://kense.com/tags/Java/"/>
+    <category term="Java" scheme="https://kense.xyz/tags/Java/"/>
     
-    <category term="JNI" scheme="http://kense.com/tags/JNI/"/>
+    <category term="JNI" scheme="https://kense.xyz/tags/JNI/"/>
     
   </entry>
   
   <entry>
     <title>记录一次 Rancher Server 的 Docker 镜像丢失和证书过期问题</title>
-    <link href="http://kense.com/2020/11/28/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1Rancher-Server%E7%9A%84Docker%E9%95%9C%E5%83%8F%E4%B8%A2%E5%A4%B1%E5%92%8C%E8%AF%81%E4%B9%A6%E8%BF%87%E6%9C%9F%E9%97%AE%E9%A2%98/"/>
-    <id>http://kense.com/2020/11/28/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1Rancher-Server%E7%9A%84Docker%E9%95%9C%E5%83%8F%E4%B8%A2%E5%A4%B1%E5%92%8C%E8%AF%81%E4%B9%A6%E8%BF%87%E6%9C%9F%E9%97%AE%E9%A2%98/</id>
+    <link href="https://kense.xyz/2020/11/28/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1Rancher-Server%E7%9A%84Docker%E9%95%9C%E5%83%8F%E4%B8%A2%E5%A4%B1%E5%92%8C%E8%AF%81%E4%B9%A6%E8%BF%87%E6%9C%9F%E9%97%AE%E9%A2%98/"/>
+    <id>https://kense.xyz/2020/11/28/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1Rancher-Server%E7%9A%84Docker%E9%95%9C%E5%83%8F%E4%B8%A2%E5%A4%B1%E5%92%8C%E8%AF%81%E4%B9%A6%E8%BF%87%E6%9C%9F%E9%97%AE%E9%A2%98/</id>
     <published>2020-11-28T12:00:00.000Z</published>
     <updated>2021-01-08T02:24:25.653Z</updated>
     
@@ -112,19 +112,19 @@
     
     
     
-    <category term="容器化" scheme="http://kense.com/categories/%E5%AE%B9%E5%99%A8%E5%8C%96/"/>
+    <category term="容器化" scheme="https://kense.xyz/categories/%E5%AE%B9%E5%99%A8%E5%8C%96/"/>
     
     
-    <category term="Rancher" scheme="http://kense.com/tags/Rancher/"/>
+    <category term="Rancher" scheme="https://kense.xyz/tags/Rancher/"/>
     
-    <category term="Docker" scheme="http://kense.com/tags/Docker/"/>
+    <category term="Docker" scheme="https://kense.xyz/tags/Docker/"/>
     
   </entry>
   
   <entry>
     <title>NiFi 1.10.0+ 版本使用 Kafka 0.8.x</title>
-    <link href="http://kense.com/2020/11/20/NiFi-1.10.0+%E7%89%88%E6%9C%AC%E4%BD%BF%E7%94%A8-Kafka-0.8.x/"/>
-    <id>http://kense.com/2020/11/20/NiFi-1.10.0+%E7%89%88%E6%9C%AC%E4%BD%BF%E7%94%A8-Kafka-0.8.x/</id>
+    <link href="https://kense.xyz/2020/11/20/NiFi-1.10.0+%E7%89%88%E6%9C%AC%E4%BD%BF%E7%94%A8-Kafka-0.8.x/"/>
+    <id>https://kense.xyz/2020/11/20/NiFi-1.10.0+%E7%89%88%E6%9C%AC%E4%BD%BF%E7%94%A8-Kafka-0.8.x/</id>
     <published>2020-11-20T12:00:00.000Z</published>
     <updated>2021-01-08T02:35:25.590Z</updated>
     
@@ -138,12 +138,12 @@
     
     
     
-    <category term="数据处理" scheme="http://kense.com/categories/%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86/"/>
+    <category term="数据处理" scheme="https://kense.xyz/categories/%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86/"/>
     
     
-    <category term="NiFi" scheme="http://kense.com/tags/NiFi/"/>
+    <category term="NiFi" scheme="https://kense.xyz/tags/NiFi/"/>
     
-    <category term="ETL" scheme="http://kense.com/tags/ETL/"/>
+    <category term="ETL" scheme="https://kense.xyz/tags/ETL/"/>
     
   </entry>
   
