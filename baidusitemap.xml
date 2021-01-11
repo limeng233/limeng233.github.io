@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://kense.xyz/2021/01/11/LRU-LFU-%E7%BC%93%E5%AD%98%E6%B7%98%E6%B1%B0%E7%AE%97%E6%B3%95/</loc>
+    <lastmod>2021-01-11</lastmod>
+  </url>
+  <url>
     <loc>https://kense.xyz/2020/11/20/NiFi-1.10.0+%E7%89%88%E6%9C%AC%E4%BD%BF%E7%94%A8-Kafka-0.8.x/</loc>
     <lastmod>2021-01-08</lastmod>
   </url>
